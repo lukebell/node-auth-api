@@ -1,0 +1,28 @@
+{
+    "local":{
+        "console": {
+            "colorize": true,
+            "level": "info"
+        }
+    },
+    "dev":{
+        "console": {
+            "colorize": true
+        },
+        "file": {
+            "filename": "log.json"
+        }
+    },
+    "cert":{
+        "file": {
+            "filename": "log.json",
+            "level": ["error", "warn"]
+        }
+    },
+    "prod":{
+        "file": {
+            "level": "error",
+            "filename": "/logs/log.json"
+        }
+    }
+}

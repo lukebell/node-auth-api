@@ -1,0 +1,28 @@
+{
+  "name": "node-auth-api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cors": "2.1.1",
+    "express": "3.4.8",
+    "istanbul": "~0.2.4",
+    "jade": "*",
+    "random-string": "~0.1.1",
+    "request": "latest",
+    "string": "~1.8.0",
+    "swagger-node-express": "2.0.1",
+    "vows": "0.7.0",
+    "winston": "0.x"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "0.3.2",
+    "grunt-vows": "0.4.0",
+    "grunt-contrib-compress": "~0.6.1",
+    "grunt-shell": "~0.6.4",
+    "istanbul": "~0.2.4"
+  }
+}
